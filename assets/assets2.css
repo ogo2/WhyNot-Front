@@ -1,0 +1,1180 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+
+  margin: 0;
+  height: 100%;
+}
+main {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,strong {
+  font-weight: bolder;
+}
+code,kbd,samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,input,optgroup,select,textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,input {
+  overflow: visible;
+}
+button,select {
+  text-transform: none;
+}
+button,[type="button"],[type="reset"],[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'),
+  url(../fonts/Roboto-Light.ttf);
+}
+header h3{
+
+  position: relative;
+  /*left: 20%;*/
+  top: 4%;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+}
+header img {
+  width: 10%;
+  /*width: 9.1%;*/
+  height:100%;
+  position: relative;
+  margin-left: 45.4%;
+  top: -81%;
+
+}
+header ul {
+  position: relative;
+  text-align: right;
+  list-style: none;
+  display: inline;
+  float: right;
+  /*margin-left:68%;*/
+  top: -75%;
+  /*margin-top: 3.5%;*/
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+
+}
+header li{
+  display: inline;
+  margin-right: 5px;
+  color: black;
+  text-decoration: none;
+
+}
+
+header a{
+
+  text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+
+}
+header a:hover{
+  color: red;
+  opacity: 0.6;
+}
+
+.head_black{
+  position: absolute;
+
+  width: 50%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background: #2B2A29;
+  /*position: absolute;*/
+  /*left: 0;*/
+  /*top: 0;*/
+  /*width: 50%;*/
+  /*height: 13%;*/
+  /*background: #2B2A29;*/
+}
+section{
+  width: 100%;
+  height: 100%;
+  /*background-color: white;*/
+  background-image: url(../img/background/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.content_zone1{
+  /*background-color: #5D6D7E;*/
+  max-width: 1041px;
+  height: 100%;
+  margin: 0 auto;
+}
+/*@media (max-width: 1041px) {*/
+/*  .content_zone1{*/
+/*    max-width: 870px;*/
+/*  }*/
+/*  */
+/*}*/
+.new_tracs{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  top: 3%;
+  /*background-color: black;*/
+}
+.new_tracs img{
+  filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.13));
+}
+.play_new_songs{
+
+  width: 100%;
+  height: 15%;
+  position: relative;
+  top: -4%;
+  /*background-color: pink;*/
+}
+.play_new_songs p{
+  padding-left: 12%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 130%;
+  line-height: 28px;
+}
+.play_new_songs button{
+  background: white;
+  position: relative;
+  width: 5%;
+  height: 60%;
+  left: 4%;
+  top:-40px;
+  border: 1px solid black;
+  /*padding: 20px;*/
+  /*text-align: center;*/
+  /*text-decoration: none;*/
+  /*display: inline-block;*/
+  /*font-size: 16px;*/
+  /*margin: 4px 2px;*/
+  /*outline: none;*/
+}
+.play_new_songs button:hover{
+  background: #888786;
+  transition: 1s ;
+
+}
+.triangle{
+  position: absolute;
+  top: 13%;
+  /*height: 100%;*/
+  /*background: url(../img/play.png) ;*/
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+  margin-left: 30%;
+  border-style: solid;
+  border-width: 8px 0 8px 10px;
+  border-color: transparent transparent transparent black;
+  left: 10%;
+  width: 50%;
+}
+
+.play_but {
+  width: 130%;
+  height: 100%;
+}
+.pause1{
+
+  width: 0;
+  /*background: url(../img/stop.png) 100% 100% no-repeat;*/
+  /*background-size: cover; !* Масштабируем фон *!*/
+
+
+  position: absolute;
+  top: 13%;
+  left: 30%;
+  border-left:3px solid black;
+  height: 15px;
+  padding-left:10px;
+}
+.pause2{
+  /*background: url(../img/stop.png) 100% 100% no-repeat;*/
+  /*background-size: cover; !* Масштабируем фон *!*/
+
+  width: 0;
+  position: absolute;
+  top: 13%;
+  left: 60%;
+  border-left:3px solid black;
+  height: 15px;
+  padding-left:10px;
+}
+#play{
+  background: white;
+}
+
+.duration{
+  width: 40%;
+  position: absolute;
+  top: 60%;
+  left: 12%;
+}
+.duration_new_tracks{
+  width: 30%;
+
+  position: absolute;
+  top: 23%;
+  left: 21%;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 2px; /* Specified height */
+  background: black; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 5%; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  background: black; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+.block_new_tracks{
+  position: relative;
+  top: 0;
+  width: 57%;
+  height: 84px;
+  background-color: #C867B9;
+}
+.block_new_tracks h1{
+  padding-top: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 160%;
+  line-height: 28px;
+}
+.block2_new_tracks{
+  position: absolute;
+  top: 0;
+  left: 61%;
+  width: 2.5%;
+  height: 84px;
+  background-color: #C867B9;
+}
+.new_tracks_playr{
+  width: 57%;
+  height: 272px;
+  position: absolute;
+  top: 26%;
+  background-color: white;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+/*.new_tracks_playr a{*/
+/*  position: relative;*/
+/*  top: 80%;*/
+/*  left: 60%;*/
+/*}*/
+
+.link_img222{
+  position: relative;
+  top: 80%;
+  left: 60%;
+  /*background-color: black;*/
+}
+.more{
+  width: 100%;
+  position: relative;
+  left: 60%;
+  top: 50%;
+}
+.more a{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  color: black
+}
+.new_tracks_playr h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  position: absolute;
+  top: -160%;
+  left: 8%;
+
+}
+/*.link_img{*/
+/*  position: relative;*/
+/*  top: 80%;*/
+/*  left: 60%;*/
+/*}*/
+
+
+.name {
+  width: 33.5%;
+  /*background-color: yellow;*/
+  position: relative;
+  top: -84px;
+  float: right;
+  /*background-color: black;*/
+}
+.name img{
+
+  width:100%;
+  height:90%;
+}
+.name h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 140%;
+  line-height: 28px;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+.name h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120%;
+  line-height: 21px;
+  color: black;
+  text-align: center;
+}
+.TheBestBlock{
+  width: 100%;
+  height: 1200px;
+  /*background-color: black;*/
+  position: relative;
+  margin-top:2%;
+}
+.TheBest{
+  width: 100%;
+  height: 59px;
+  position: relative;
+  margin-top: 2%;
+  /*background-color: black;*/
+}
+.sckroll_thebest{
+  width: 100%;
+  height: 1068px;
+  /*background-color: #0E530E;*/
+  overflow: auto;
+}
+.sckroll_thebest::-webkit-scrollbar {
+  width: 0;
+}
+.TheBest a{
+  position: absolute;
+  top: 6%;
+  margin-left: 42%;
+  text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+  color: black;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+}
+.palka1{
+  position: absolute;
+  top: 15%;
+  left: -5%;
+  border-left:2px solid black;
+  height: 29px;
+  padding-left:10px;
+}
+.palka2{
+  position: absolute;
+  top: 15%;
+  right: -11%;
+  border-left:2px solid black;
+  height: 29px;
+  padding-left:10px;
+}
+.TheBestTrack{
+  position: relative;
+  margin-top: 1.9%;
+  margin-left: 0;
+  width: 60%;
+  height: 73px;
+  /*background-color: black;*/
+
+}
+.TheBestTrack h1{
+  position: absolute;
+  top: 43%;
+  left: 15%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 135%;
+}
+.TheBestTrack button{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+
+}
+.TheBestTrack button:hover{
+  background: #888786;
+  transition: .15s;
+
+}
+.Ramka{
+  width: 13%;
+  height: 73px;
+  /*background-color: #C867B8;*/
+
+}
+.Ramka img{
+  width: 90%;
+  height: 90%;
+  position: relative;
+  left: 5%;
+  top: 5%;
+  /*border-radius: 5%;*/
+}
+.TheBestline{
+  width: 76%;
+  height: 3px;
+  background-color: #C867B8;
+  position: absolute;
+  top: 91%;
+  left: 12%;
+}
+.audio-track {
+  position: absolute;
+  top: 11%;
+  left: 21%;
+  width: 30%;
+  height: 2px;
+  background-color: black;
+  margin: 20px 0
+}
+
+.time {
+  width: 0;
+  height: 3px;
+  background-color: #474747
+}
+.buythebest{
+  background: transparent;
+  margin-left: 38%;
+  margin-top: 0.4%;
+  width: 56px;
+  height: 28px;
+  border: 0;
+  outline: none;
+
+}
+button:hover {
+  cursor: pointer;
+
+
+}
+button{
+  /*background: transparent;*/
+  /*outline: none;*/
+  /*width: 10%;*/
+  background: white;
+  position: relative;
+  width: 5%;
+  height: 34%;
+  left: 4%;
+  top:55%;
+  border: 1px solid black;
+
+}
+.sharethebest{
+  background: transparent;
+  margin-left: 49%;
+  margin-top: 0.4%;
+
+  width: 56px;
+  height: 28px;
+  border: 0;
+  outline: none;
+}
+.donwthebest{
+  background: transparent;
+  margin-left: 60%;
+  margin-top: 0.4%;
+
+  width: 56px;
+  height: 28px;
+  border: 0;
+  outline: none;
+}
+.track_line{
+  width: 40%;
+  height: 1px;
+  margin-left:6%;
+  margin-top: 5%;
+  background-color: #C867B8;
+}
+.fon2{
+  position: absolute;
+  top: 170%;
+  width: 100%;
+  height: 1500px;
+  background-image: url(../img/бэкграунд.png);
+  /*background-color: #9b59b6;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rama{
+  position: absolute;
+  top: 13%;
+  left: 54%;
+  border: 2px solid black; /* Параметры границы */
+
+  width: 442px;
+  height: 988px;
+}
+.checkthisout{
+  width: 43%;
+  height: 988px;
+  background-color: #C867B8;
+  position: absolute;
+  top: 9%;
+  left: 57%;
+
+}
+.checkthisout h1{
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+.textcheck{
+  margin-left: 5%;
+  top: 15%;
+  width: 90%;
+  height: 60%;
+  /*background-color: black;*/
+}
+.checkthisout img{
+  position: absolute;
+  top: 66%;
+  left: 13%;
+}
+.textcheck p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+}
+.block_check{
+  width: 75%;
+  height: 29%;
+  background-color: white;
+  top: 80%;
+  margin-left: 18%;
+}
+.compilations{
+  position: relative;
+  margin-left: 20%;
+  width: 60%;
+  height: 550px;
+  /*background-color: black;*/
+}
+.comp_block{
+  width: 60%;
+  height: 84px;
+  background-color: #2B2A29;
+  margin-left: 20%;
+
+
+}
+
+.comp_block h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+  text-align: center;
+  padding-top:3.5%;
+}
+.podborka{
+  float: left;
+  position: relative;
+  left: 6%;
+  margin-left: 5.5%;
+  margin-top: 5%;
+  width: 15%;
+  height: 150px;
+  /*background-color: black;*/
+
+}
+
+.podborka_name{
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  position: relative;
+  top: -17%;
+  left: 30%;
+  border: 2px solid black;
+}
+.podborka_name h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size:24px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 2%;
+
+}
+.podborka img{
+  width: 100%;
+  height: 100%;
+}
+.podborka2{
+  float: left;
+
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 35%;
+  height: 304px;
+  background-color: black;
+}
+.podborka_name2{
+  width: 75%;
+  height: 60px;
+  background-color: white;
+  position: relative;
+  top: -17%;
+  left: 50%;
+  border: 2px solid black;
+}
+.podborka_name2 h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 2%;
+
+}
+.podborka2 img{
+  width: 100%;
+  height: 100%;
+}
+.containercomp button  {
+  position: absolute;
+  width: 6%;
+  height: 7%;
+  top: 54%;
+  z-index: 54;
+
+}
+.controls img{
+  transform: rotate(180deg)
+}
+.controls1{
+
+  left: 95%;
+}
+.containercomp{
+  height: 460px;
+  width: 100%;
+  /*background-color: #0E530E;*/
+  /*overflow: auto;*/
+  /*overflow-x: scroll;*/
+}
+.next_slide{
+  width: 100%;
+  height: 100%;
+}
+.slide{
+  position: absolute;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.showing{
+  opacity: 1;
+  z-index: 2;
+}
+.podborka img:hover{
+  transform: scale(1.1);
+
+}
+.ganress{
+  width: 60%;
+  height: 270px;
+  /*background-color: black;*/
+  position: relative;
+  left: 20%;
+
+}
+.head_ganres{
+  width: 100%;
+  height: 84px;
+  background-color: #C867B8;
+}
+.head_ganres h1{
+  padding-top: 2.5%;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.ganress_list{
+  position: absolute;
+}
+.skrit{
+  overflow: hidden;
+}
+.ganress_list img{
+  width: 15%;
+  height: 15%;
+  position: relative;
+  margin-top:3%;
+  left: 4%;
+  margin-left: 2%;
+}
+.news{
+  width: 60%;
+  height: 500px;
+  /*background-color: black;*/
+  position: relative;
+  left: 20%;
+}
+.head_news{
+  width: 100%;
+  height: 84px;
+  /*background-color: #5D6D7E;*/
+}
+.head_news h1{
+  text-align: center;
+  padding-top: 2%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+.palka3{
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  border-left:2px solid black;
+  height: 29px;
+  padding-left:10px;
+}
+.palka4{
+  position: absolute;
+  top: 5%;
+  right: 39%;
+  border-left:2px solid black;
+  height: 29px;
+  padding-left:10px;
+}
+.block_news{
+  width:80%;
+  height: 380px;
+  /*background: white;*/
+  position: relative;
+  left: 10%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.news img{
+  width: 100%;
+  height: 380px;
+  filter: blur(4px);
+}
+.slide_news{
+  position: absolute;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.block_news button  {
+  position: absolute;
+  width: 6%;
+  height: 7%;
+  z-index: 54;
+
+}
+/*.but_news1 img{*/
+/*  transform: rotate(180deg)*/
+/*}*/
+
+.but_news1{
+  top: 50%;
+  left: -12%;
+}
+.but_news2{
+  top: 50%;
+  left: 105%;
+}
+.next_slide_news{
+  width: 100%;
+  height: 100%;
+}
+.block_news h1{
+  position: relative;
+  text-align: center;
+
+  top: -380px;
+  color: white;
+}
+.block_news p{
+  position: relative;
+  text-align: center;
+
+  top: -380px;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+footer{
+  width: 100%;
+  height: 100%;
+  background-color: #2B2A29;
+  border: 3px solid black;
+}
+footer h1{
+  position: relative;
+  text-align: center;
+
+  left: 5%;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 28px;
+}
+.why_block {
+  width: 5%;
+  position: relative;
+  left: 5%;
+  top: 30%;
+}
+.logo_socweb{
+  margin-left: 75%;
+  margin-top: 3%;
+}
+.logo_socweb img{
+  width:15%;
+  height:15%;
+}
+.reg_head{
+  width: 100%;
+  height: 84px;
+  background: #2B2A29;
+
+}
+.reg_head h1{
+  padding-top: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 160%;
+  line-height: 28px;
+  color: white;
+  position: relative;
+  left: 42%;
+}
+.block_registr{
+  width: 99.9%;
+  height: 700px;
+  border: 2px solid #2B2A29;
+  position: relative;
+  margin-top: 2%;
+}
+.photo_registr{
+  position: relative;
+  top: 30px;
+  left: 3%;
+  width: 26%;
+  height: 40%;
+}
+.plus_profil{
+  position: relative;
+  left: 67%;
+  top: -80px;
+}
+.rama2{
+  position: absolute;
+  top: 13%;
+  left: 48%;
+  border: 2px solid black; /* Параметры границы */
+
+  width: 442px;
+  height: 580px;
+}
+.checkthisout2{
+  width: 43%;
+  background-color: #C867B8;
+  position: absolute;
+  top: 9%;
+  left: 52%;
+
+}
+.checkthisout2 form{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /*background-color: green;*/
+}
+.checkthisout2 ul{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+.checkthisout2 li{
+  font-family: Roboto;
+  font-size: 18pt;
+  color: white;
+  display: inline;
+
+  text-decoration: none;
+}
+.checkthisout2 p{
+  position: relative;
+  margin-top: 0;
+}
+.checkthisout2 .inp{
+  width: 90%;
+  border: none;
+  height: 20px;
+  position: relative;
+  background-color: #2B2A29;
+  top: -22px;
+  /*left: -5%;*/
+}
+.checkthisout2 textarea{
+  width: 90%;
+  height: 20%;
+  border: none;
+  position: relative;
+  background-color: #2B2A29;
+  top: -22px;
+}
+.flag{
+  position: relative;
+  top: -22px;
+
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+  color: #2B2A29;
+}
+.input_chck{
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 5%;
+  left: -13px;
+
+}
+.checkthisout2 h3{
+  display: inline;
+  float: left;
+  font-family: Roboto;
+  font-size: 18pt;
+  position: relative;
+  top: -48px;
+}
+.butt{
+  width: 70%;
+  height: 25px;
+  background-color: white;
+
+  position: relative;
+  top: 30px;
+  left: 10%;
+
+}
+.butt a{
+  position: relative;
+  top: -80px;
+  font-family: Roboto;
+  font-size: 18pt;
+  text-decoration: none;
+  left: 10%;
+}

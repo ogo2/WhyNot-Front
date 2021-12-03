@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/assets.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Добавить музыку</title>
+</head>
+<body>
+<header class="header1">
+    <div class="content_zone1">
+        <a href="index.html"><img class="logo" src="img/лягух%202.png"></a>
+        <h1 class="logo"><a href="index.html">WhyNote</a></h1>
+        <div class="search">
+            <input class="inp_text" type="text" name="search" size="40" placeholder="Поиск артиста, песни, альбома.....">
+            <input class="inp_img" type="image" src="img/search%202.png">
+        </div>
+        <div class="player">
+            <button value="val_play1" class="buter"><img src="img/Group%204%20(1).png"></button>
+            <button value="val_play1" id="play" class="buter"><img src="img/Polygon%2012%20(2).png"></button>
+            <button value="val_play1" class="buter"><img src="img/Group%203%20(1).png"></button>
+
+            <div class="block_name_song"><p id="title1">Name - name</p></div>
+
+            <div class="duration">
+                <input type="range" min="0" max="100" value="0" id="11" class="slider">
+            </div>
+            <div class="duration_valume">
+                <input type="range" min="0" max="99" value="50" id="12" class="slider_valume">
+            </div>
+        </div>
+        <div class="avatar_header">
+            <a class="name_profile_header" href="profile.html"><img src="img/_xz_m-ruL0k.jpg"></a>
+        </div>
+        <a class="name_profile_header" href="profile.html"><h2>Name</h2></a>
+        <div class="burger">
+            <button class="burg"><img src="img/burger.png"></button>
+        </div>
+    </div>
+</header>
+<section>
+
+    <div class="content_zone2">
+        <div class="menu">
+            <ul>
+                <a href="profile.html"><li>Профиль</li></a>
+                <a href="index.html"><li>Главная</li></a>
+                <a href="my_music.html"><li>Моя музыка</li></a>
+                <a href="artists.html"><li>Артисты</li></a>
+                <a href="magazine.html"><li>Журнал</li></a>
+
+                <a href="add_music.html"><li>Добавить песню</li></a>
+                <a href="add_news.html"><li>Добавить статью</li></a>
+
+                <!--                <li><a href="404.html">Сообщения</a></li>-->
+                <!--                <li><a href="404.html">Видео</a></li>-->
+
+            </ul>
+        </div>
+        <div class="content2">
+            <h2>Загрузить музыку</h2>
+            <form>
+                <div class="block_up_photo_upload_img">
+                    <input id="input__file" type="file" name="file" class="up_photo"/>
+                    <label for="input__file" class="upload_file_img33">
+                        <span class="blyat">
+                            <img class="icon_upload_img_track" src="img/upload_song.png" alt="Выбрать фото" ></span>
+                            <span class="upload-button-text">Загрузить обложку
+своего трека</span>
+                    </label>
+                </div>
+            </form>
+            <form required class="form_donwload_song">
+                <ul>
+                    <li><label for="name_song_input">Название песни</label></li>
+                    <li><input required class="email_input" type="email" aria-invalid="false"
+                               id="name_song_input"
+                               placeholder="Введите название песни"></li>
+                    <li><div>
+                        <label class="genre_donwload">Жанр</label>
+                    </div></li>
+                    <li>
+                    <select name="theme" class="select_donwload" required="required">
+                        <option>Электронная</option>
+                        <option>Легкая музыка</option>
+                        <option>Рок</option>
+                        <option>Поп</option>
+                        <option>Танцевальная</option>
+                        <option>Phonk</option>
+                        <option>Memphis</option>
+                        <option>Retro Wave</option>
+                        <option>Альтернативный рок</option>
+                    </select></li>
+                    <li>
+                        <div>
+                            <label for="gender" class="email_registr">Приватность</label>
+                        </div>
+                        <!--                    <div class="gender_block">-->
+                        <div class="gender_on">
+                            <p><input type="radio" name="dzen" id="gender" class="dzen"  value="a2">Приватный</p>
+                        </div>
+                        <div class="gender_on">
+                            <p><input type="radio" name="dzen" id="gender" class="dzen"  value="a2">Публичный</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="upload_block_button">
+                    <div class="block_donwl_audio">
+                        <div class="block_up_photo2">
+                            <input id="input__file" type="file" name="file" class="up_photo"/>
+                            <label for="input__file" class="input__file-button2">
+                                <span class="input__file-icon-wrapper">Загрузить аудиофайл</span>
+                                <!--                        <span class="input__file-button-text">Выберите фото</span>-->
+                            </label>
+                        </div>
+                    </div>
+                    <div class="block_donwl_audio">
+                        <div class="block_up_photo3">
+                            <input id="input__file" type="file" name="file" class="up_photo"/>
+                            <label for="input__file" class="input__file-button2">
+                                <span class="input__file-icon-wrapper">Загрузить обложку</span>
+                                <!--                        <span class="input__file-button-text">Выберите фото</span>-->
+                            </label>
+                        </div>
+                    </div>
+                    <div class="otpravit_but">
+                        <p><button type="submit" class="otpravit">Опубликовать</button></p>
+                    </div>
+                </div>
+            </form>
+<!--            <div class="download_audio">-->
+
+        </div>
+    </div>
+</section>
+<footer>
+
+</footer>
+<script src="function.js"></script>
+</body>
+</html>
